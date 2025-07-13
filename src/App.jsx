@@ -45,7 +45,7 @@ export default function App() {
               <main className="flex-grow">
                 <Routes>
                   <Route path="/" element={<HomePage />} />
-                  <Route path="/block/:blockHeight" element={<BlockPage />} />
+                  <Route path="/blocks" element={<BlockPage />} />
                   <Route path="/transactions" element={<TransactionPage />} />
                   <Route path="/address/:address" element={<AddressPage />} />
                   <Route path="/wallet" element={<WalletPage />} />
